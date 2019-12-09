@@ -1,0 +1,105 @@
+/* Style sheet created by: Alex Stevens, 2/22/2018 */
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+.myname {
+	font-family: 'Didact Gothic', sans-serif, serif;
+	font-size: 2em;
+	
+}
+
+img {
+	max-width: 100%;
+}
+
+.desktop {
+	display: none;
+}
+
+.mobile {
+	display: inline;
+}
+
+nav {
+	list-style-type: none;
+	display: inline;
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color: #701226;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+	box-shadow: 12px 12px 12px #404040;
+	border: 2px black solid;
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+#outerwrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+li {
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+p {
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 1em;
+	color: white;
+	
+}
+
+.boldnames {
+	font-weight:bold;
+}
+
+#main {
+	clear: both;
+	background-color: #701226;
+	padding: 3%;
+	border: 2px black solid;
+	border-radius: 25px;
+	box-shadow: 12px 12px 12px #404040;
+
+}
+
+.float-right {
+	float: right;
+}
+
+.headings{
+	font-family: Futura, Calibri, sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+
+
+
+footer {
+	margin-top: 20em;
+	font-family: Futura, Calibri, sans-serif;
+	font-size: .75em;
+}
+
+
+body {
+Background-color:#D3D3D3;
+}

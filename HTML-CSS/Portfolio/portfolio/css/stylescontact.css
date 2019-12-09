@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic'); 
+
+.myname{font-family:'Didact Gothic',sans-serif,serif; font-size:2em; padding-left:1.5em; text-shadow:2px 2px #701226}
+
+img{max-width:70%}
+
+.imgface{max-width:100%; height:auto; width:125px; float:left}
+
+figure img{background-color:#701226; display:inline; height:8em; width:25%; margin:.2%; padding:.4%}
+
+nav{list-style-type:none; display:inline; font-family:Futura,Calibri,sans-serif; font-size:1em; font-weight:bold; text-align:center}
+
+nav ul{padding:0; margin-top:0.5em; margin-bottom:0.5em}
+
+nav li{background-color:#701226; border-radius:2em; list-style-type:none; margin:0.3em; padding:0.2em; box-shadow:12px 12px 12px #404040; border:2px black solid}
+
+nav li a{color:#FFF; text-decoration:none}
+
+#outerwrapper{width:100%; margin:0 auto 0 auto}
+
+#main{clear:both; background-color:#701226; padding:3%; border:2px black solid; border-radius:25px; box-shadow:12px 12px 12px #404040; overflow:auto}
+p{font-family:Futura,Calibri,sans-serif; font-size:1em; color:white}
+
+footer{margin-top:20em; font-family:Futura,Calibri,sans-serif; font-size:.75em; color:#FFF; text-align:center}
+
+body{Background-color:#D3D3D3}
+
+.headings{font-family:Futura,Calibri,sans-serif; font-size:1.5em; color:white}
+
+.linkcolor{color:white; font-size:.85em; font-family:Futura,Calibri,sans-serif}
+
+.linksformat{font-family:Futura,Calibri,sans-serif; font-size:1em; color:white}
+
+.float-right{float:right}
+
+.boldnames{font-weight:bold}
+
+.pdfcolor{font-family:Futura,Calibri,sans-serif; font-size:1.25em; color:white}
+li{font-family:Futura,Calibri,sans-serif; font-size:1em; color:white}
+
+body{background:-moz-linear-gradient(#D3D3D3,#701226); background:-o-linear-gradient(#D3D3D3,#701226); background:-webkit-linear-gradient(#D3D3D3,#701226); background:linear-gradient(#D3D3D3,#701226); background-attachment:fixed}
+
+section{padding-left:2em; padding-right:2em}
+
+input, select, textarea{display:block; margin-bottom:1em}
+
+label{display:block; font-family:Futura,Calibri,sans-serif; font-size:1em; color:white}
+
+form ul{list-style-type:none}
+
+.chkbx{display:inline-block}
+
+.desktop{display:none}
+.mobile{display:inline}
+.tableshow{display:none}
+
+@media only screen and (min-width:750px){.desktop{display:inline}
+
+.mobile{display:inline}
+
+.tablet{display:inline}
+
+.tableshow{display:inline}
+
+table{background-color:#2e2e2e; width:65%; font-family:Futura,Calibri,sans-serif; font-size:.8em; color:#FFF}
+
+form{background-color:#7F8C8D}
+
+th, td{border:0.1em solid #701226; padding:1em}
+
+.rowone{background-color:#FAFAFA; font-weight:bold; text-decoration:underline; color:#2e2e2e}
+.tabeldesk{display:none}
+
+.contact{display:none}
+figure{display:none}
+
+.vslogo{display:none}
+.footerdisplay{display:none}
+}
+@media only screen and (min-width:1000px){.desktop{display:inline}
+
+.mobile{display:inline}
+
+.tablet{display:inline}
+
+nav li{border-radius:0; border-top:solid #000; border-bottom:solid #000; margin-left:0; margin-right:0; padding:0; width:10%; display:inline; float:left; margin-left:1%; margin-right:1%; padding-left:0; padding-right:0; width:22%; white-space:nowrap; margin-bottom:1em}
+
+#container{width:80%}
+
+article{background-color:#D3D3D3; margin:0.5%; padding:1%; text-align:center; width:30%; float:left; opacity:.8}
+
+.article-color{color:#000}
+
+article .headings{color:#000}
+
+nav ul{margin:0; padding-left:0.50%; padding-right:0.50%}
+
+nav li a{display:inline-block; padding:0.3em}
+
+main{border-style:none; box-shadow:0.5em 0.5em 0.5em #404040; margin-bottom:1em; margin-top:1em}
+
+p{padding-left:0.5em; padding-right:0.5em}
+
+nav li a:link{color:#FFF}
+
+nav li a:visited{color:#FFF}
+
+nav li a:hover{color:#2EFEF7; font-style:italic}
+
+nav li a:active{color:#D3D3D3}
+.contact{display:inline; float:right}
+.vslogo{display:inline; float:right; padding-right:5em}
+
+table{background-color:#2e2e2e; width:80%; font-family:Futura,Calibri,sans-serif; font-size:1em; color:#FFF}
+
+th, td{border:0.1em solid #701226; padding:1em}
+
+.rowone{background-color:#FAFAFA; font-weight:bold; text-decoration:underline; color:#2e2e2e}
+.picturebox{display:inline}
+.contact{display:inline}
+figure{display:inline}
+
+.vslogo{display:inline}
+.footerdisplay{display:inline}
+
+.tabeldesk{display:none}
+
+form{background-color:#2e2e2e; padding:1em; width:40%}
+label{float:left; padding-right:0.5em; text-align:right; width:10em}
+
+
+}
