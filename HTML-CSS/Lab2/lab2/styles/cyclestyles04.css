@@ -1,0 +1,25 @@
+/* Style sheet created by: Alex Stevens, 1/25/2018 */
+
+body {
+	background-color: #FF9900;
+	font-family: "Calibri", sans-serif;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.floatleft { float: left;
+	margin-right: 2%;
+}
+	
+.floatright { float: right;
+	margin-left: 2%;
+}
+
+nav ul { list-style-type: none;
+}
+
+.boldtext, dt { font-weight: bold; }
