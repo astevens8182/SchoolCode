@@ -1,0 +1,88 @@
+/* Alex Stevens Style sheet for midterm review */
+
+/*Style for the fulid banner img*/
+img {
+  max-width: 100%;
+}
+
+/* style the container elements and the page width */
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Style for the navigation links */
+nav li {
+  list-style-type: none
+}
+
+nav li a {
+  text-decoration: none;
+  color: #FF7800;
+}
+aside {
+  display: none;
+}
+/* styles the footer */
+footer {
+  text-align: center;
+  background-color: #95A5A6;
+}
+
+
+
+/* media query for desktop veiwports */
+@media only screen and (min-width: 1200px) {
+  /* container for desktop */
+  #container {
+    width: 80%;
+  }
+
+  /* style for nav in desktop */
+  nav li {
+    display: inline-block;
+    padding: 1em;
+  }
+
+  /* style rules for pseudo-code */
+  nav li a:link {
+	   color: #FF7800;
+   }
+
+   nav li a:visited {
+	   color: #FF7800;
+    }
+
+    nav li a:hover {
+	    color: #FF7100;
+  	  font-weight: bold;
+  }
+
+    nav li a:active {
+	     color: #D3D3D3;
+  }
+
+  /* style for the asdie bar */
+  aside  {
+    width: 19%;
+    display: inline;
+    float: right;
+    margin-top: -35%;
+    margin-bottom: 20%;
+    background-color: #FDA455;
+  }
+
+  /* style for article */
+  article {
+    width: 80%;
+    margin: .5%;
+  }
+
+  /* style for footer in desktop */
+  footer {
+    clear: right;
+  }
+
+
+}
