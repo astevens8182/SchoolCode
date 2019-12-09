@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\n\ Implement\ a\ Customer\ class\ to\ maintain\ the\ time\ the\ customer\ arrived\ in\ line\ (double).\n.\n\n\ @author\ (Alex\ Stevens)\n\ @version\ (Stevens)\n
+comment1.params=time
+comment1.target=Customer(double)
+comment1.text=\n\ \u2013\ initialize\ the\ instance\ variable\n\ @param\ double\ time\n
+comment2.params=t
+comment2.target=void\ setArrivalTime(double)
+comment2.text=\n\ set\ the\ instacne\ varible\n\ @param\ double\ t\n
+comment3.params=
+comment3.target=double\ getArrivalTime()
+comment3.text=\n\ return\ the\ arrival\ time\n\ @param\ time\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ main\ method\ used\ for\ testing\ \n
+numComments=5

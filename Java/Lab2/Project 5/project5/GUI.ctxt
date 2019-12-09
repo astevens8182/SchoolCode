@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\n\ GUI\ for\ a\ marketplace\ class\n\ \n\ @author\ Scott\ Grissom\n\ @version\ October\ 7,\ 2017\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ Method\n
+comment2.params=
+comment2.target=GUI()
+comment2.text=\n\ constructor\ installs\ all\ of\ the\ GUI\ components\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\n\ This\ method\ is\ called\ when\ any\ button\ is\ clicked.\ \ The\ proper\n\ internal\ method\ is\ called\ as\ needed.\n\ \n\ @param\ e\ the\ event\ that\ was\ fired\n
+comment4.params=str
+comment4.target=boolean\ isValidNumber(java.lang.String)
+comment4.text=\n\ private\ helper\ method\ that\ is\ used\ by\ the\ action\ performed\ class\n\ @param\ list\n
+comment5.params=
+comment5.target=void\ setupMenus()
+comment5.text=\n\ \ \ \ Creates\ the\ menu\ items\n
+numComments=6

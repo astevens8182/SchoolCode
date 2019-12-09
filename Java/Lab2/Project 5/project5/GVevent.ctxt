@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GVevent
+comment0.text=\nThis\ object\ maintains\ the\ time\ and\ possibly\ the\ \ncashier\ number\ of\ a\ simulation\ event.\ \ Two\ event\ types\nare\ suported\:\ ARRIVAL,\ DEPARTURE.\ \ It\ is\ the\ responsibility\nof\ a\ simulation\ to\ determine\ what\ arrivals\ and\ departures\nmean.\n<br><br>\nAn\ arrival\ event\ is\ instantiated\ with\ a\ time\:\nnew\ GVevent(GVevent.ARRIVAL,\ 234.5);\n<br><br>\nA\ departure\ event\ is\ instantiated\ with\ a\ time\ and\ cashier\ \nnumber\:\nnew\ GVevent(GVevent.DEPARTURE,\ 234.5,\ 2);\n\n@author\ Scott\ Grissom\n@version\ Oct\ 10,\ 2013\ \n
+comment1.params=
+comment1.target=void\ process()
+comment2.params=
+comment2.target=double\ getTime()
+comment2.text=\n\ \ \ \ At\ what\ time?\n\ \ \ \ @returns\ the\ event\ time\n
+comment3.params=
+comment3.target=int\ getCashier()
+comment4.params=e
+comment4.target=int\ compareTo(java.lang.Object)
+comment4.text=\n\ This\ method\ is\ required\ for\ the\ Comparable\ interface\n\ It\ returns\ a\ negative\ number\ if\ the\ first\ event\ is\ \n\ scheduled\ to\ occur\ before\ the\ second\ event.\ \ It\ is\ \n\ not\ explicitely\ invoked\ within\ a\ program\ but\ instead\n\ used\ when\ a\ comparison\ is\ necessary.\n\ @param\ e\ is\ expected\ to\ be\ another\ GVevent\n
+numComments=5

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GVrandom
+comment0.text=\nThis\ class\ extends\ Random.\ \ Therefore,\ all\ methods\ \nprovided\ in\ the\ Random\ class\ can\ also\ be\ invoked\ on\na\ GVrandom\ object.\ \ However,\ an\ additional\ method\ is\ provided\nin\ GVrandom\ to\ generate\ random\ number\ about\ a\ desired\nmean\ using\ a\ modified\ gaussian\ distribution.\n\ \n@author\ Scott\ Grissom\n@version\ Oct\ 1,\ 2013\n
+comment1.params=
+comment1.target=GVrandom()
+comment2.params=mean
+comment2.target=double\ nextPoisson(double)
+comment2.text=\nGenerates\ random\ numbers\ about\ a\ desired\ mean\ using\ a\nmodifed\ gaussian\ distriution.\n@param\ mean\ the\ desired\ mean\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\nMain\ method\ used\ for\ testing\ purposes\n
+numComments=4

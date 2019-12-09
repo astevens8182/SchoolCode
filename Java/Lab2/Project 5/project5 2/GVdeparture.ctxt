@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GVdeparture
+comment0.text=\n\ this\ class\ is\ used\ to\ tell\ the\ market\ place\ class\ if\ someone\ is\ leaving\ and\ it\ extends\ the\ gv\ event\ class\n\n\ @author\ (Alex\ Stevens)\n\ @version\ (2017)\n
+comment1.params=store\ time\ id
+comment1.target=GVdeparture(MarketPlace,\ double,\ int)
+comment1.text=\n\ invokes\ the\ base\ class\ constructor\ to\ set\ the\ marketplace\ object,\ the\ event\ time\ and\ cashier\ id\n\ @param\ marketplace\ store\n\ @param\ double\ time\n\ @param\ int\ id\n
+comment2.params=
+comment2.target=void\ process()
+comment2.text=\n\ uses\ the\ marketplace\ object\ in\ the\ base\ class\ to\ invoke\ the\ customerpays\n
+numComments=3

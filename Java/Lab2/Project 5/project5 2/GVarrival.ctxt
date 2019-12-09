@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GVarrival
+comment0.text=\nGVarrival\ that\ extends\ GVevent.\ \ \ \n\n\n\ @author\ (Alex\ Stevens)\n\ @version\ (2017)\n
+comment1.params=
+comment1.target=void\ process()
+comment1.text=\n\ use\ the\ MarketPlace\ object\ in\ the\ base\ class\ to\ invoke\ customerGetsInLine().\ \n\ @param\ \n
+numComments=2
