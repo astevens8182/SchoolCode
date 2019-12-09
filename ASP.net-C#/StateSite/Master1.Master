@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master1.master.cs" Inherits="ProjectVer1Steven.Master1" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 45px;
+            height: 37px;
+        }
+    </style>
+    
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+    
+    <form id="form1" runat="server">
+       
+                    <div class="container">
+                          <h1><asp:Label class="display-2" ID="Label1" runat="server" Text="Explore Kansas"></asp:Label></h1>
+                        <img class="img-fluid" style="min-width:100%; max-height:250px; border:inset 2px #ff6600;" alt="Kansas"  src="kansas-city-top-shutterstock.jpg"/>
+                      
+                    </div>
+                            <div class="bg-dark" style="padding-top:2.5em;"></div>
+
+                    <div class="container" style="background-color:darkgray;   padding-top: .5em; padding-bottom: .5em; border:inset 2px #ff6600;">
+
+                    <nav>
+                     <ul class="nav nav-pills nav-fill" style="font-size: 25px; color:black;" >
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:black; font-weight:bold;"href="Default.aspx">Home</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" style="color:black; font-weight:bold;" href="Privacy.aspx">Privacy</a>
+                         </li>
+                         <li class="nav-item">
+                         <a class="nav-link" style="color:black; font-weight:bold;" href="ContactUs.aspx">Contact Us</a>
+                         </li>
+                          <li class="nav-item">
+                         <a class="nav-link" style="color:black; font-weight:bold;" href="Catalog.aspx">Catalog</a>
+                         </li>
+                        </ul>
+                </nav>
+                    </div>
+
+                    <div class="bg-dark" style="padding: 20px 2px 50px 2px;">
+                        
+
+
+                        <ul class="nav nav-pills" style="float:right; padding-right:25em; " >
+                        <li class="nav-item dropdown">
+                        <img alt="" class="auto-style1" src="Untitled-1-512.png" style="float:right;" ><asp:Button ID="btnSessionLogin" style="background-color:transparent; outline-color:transparent; border-color:transparent; font-weight:bold; color:white;float:right; padding-right:2px;"  runat="server" Text="Account"  OnClick="btnSessionLogin_Click" />
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"></a>
+    <div class="dropdown-menu">
+              <a class="dropdown-item" href="LoginPage.aspx">Login</a>
+
+      <a class="dropdown-item" href="UpdateOrDelete.aspx">Update Account</a>
+                      <a class="dropdown-item" href="Cart.aspx">Cart</a>
+
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="LogOut.aspx" id="logoutAnimation">Log Out</a>
+    </div>
+  </li>
+                            </ul>
+                        </div>
+
+
+                  <div class="container" style="background-color:darkgray; color:black;  padding-top: 1em; padding-bottom: 1em; border:inset 2px #ff6600;">
+                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                      </asp:ContentPlaceHolder>
+              </div>
+                <h3 class="text-center" style="font-size:14px; padding-top: 2em;">Explore Kansas | 1234 Main St. Kansas City, Kansas | Phone: (123) 456-7890 | Fax: (123) 456-9999 | Email: <a href="mailto:ExploreKansas@gmail.com">ExploreKansas@gmail.com</a> | Creator: Alex Stevens | Date Updated: 02/20/2019</h3>
+      
+    </form>
+</body>
+</html>
