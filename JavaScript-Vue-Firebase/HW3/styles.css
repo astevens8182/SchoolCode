@@ -1,0 +1,80 @@
+body {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10vw 30vw 10vw;
+    grid-gap: 1em;
+}
+
+header {
+    grid-column: 1 / span 2;
+    font-weight: bold;
+    background-color: lightslategray;
+    font-size: 40px;
+    justify-content: right;
+}
+
+body {
+    margin: 0 auto;
+    max-width:56em;
+    padding: .5em 0;
+}
+
+
+main,
+aside {
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.victim {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cyan;
+    font-weight: bold;
+    align-content: center;
+}
+tr:nth-child(even) {
+    background-color: brown;
+}
+
+.tableRow1 {
+    color: blue;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+.tableRow2 {
+    color: chocolate;
+}
+
+.tableRow3 {
+    color: crimson;
+}
+
+
+@media only screen and (max-width:600px){
+
+.tableRow2{
+    display: none;
+
+}   
+.tableRow3 {
+    display: none;
+} 
+.tableRow4 {
+    display: none;
+}
+th:nth-child(2){
+    display: none;
+}
+    
+th:nth-child(3){
+    display: none;
+}
+th:nth-child(4){
+    display: none;
+}
+
+    
+    }
