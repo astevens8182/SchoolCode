@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master2.master.cs" Inherits="MasterPageLab.Master2" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color: #FF00FF">
+        </div>
+        <table class="auto-style1" style="background-color: #00FF00">
+            <tr>
+                <td colspan="2" style="height: 48px">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="About.aspx" Text="About" Value="About"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">First Color</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 48px">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="Gold-letter-A.jpg" />
+                </td>
+                <td style="width: 48px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 48px">Copyright 2019 Contoso Inc.</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
